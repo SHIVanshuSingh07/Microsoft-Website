@@ -170,3 +170,32 @@ ul {
 }
 
 /* header and front end from here */
+
+
+/* Icon-link start */
+.iconContainer{
+    width: 95%;
+    height: 135px;
+    margin: 10px auto;
+    margin-top: 80px;
+    padding: 5px;
+    /* background-color: #0067b8; */
+}
+
+.iconContainer ul{
+    display: flex;
+    /* background-color: red; */
+    padding-left: 200px;
+    padding-right: 200px;
+}
+
+.iconContainer ul img{
+    width: 60px;
+    height: 60px;
+}
+#linkList .imageicon{
+    padding: 30px 60px 30px 60px;
+
+}
+
+/* Icon-link end */
