@@ -178,6 +178,7 @@ ul {
     height: 135px;
     margin: 10px auto;
     margin-top: 80px;
+    margin-bottom: 80px;
     padding: 5px;
     /* background-color: #0067b8; */
 }
@@ -199,3 +200,34 @@ ul {
 }
 
 /* Icon-link end */
+
+/* card start */
+.home-cards {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 10px;
+    margin: 15px 0;
+  }
+  .card {
+    min-height: 350px;
+  }
+  .card h3{
+    font-size: 25px;
+    padding-bottom: 10px;
+  }
+  .card-img img {
+    width: 100%;
+    margin-bottom: 20px;
+  }
+  .card-content {
+    margin-bottom: 10px;
+    min-height: 60px;
+  }
+  
+  .btn-card {
+    width: 130px;
+    margin: 10px 0;
+  }
+  
+  /* card end */
+  
