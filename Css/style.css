@@ -178,10 +178,30 @@ ul {
     height: 135px;
     margin: 10px auto;
     margin-top: 80px;
-    margin-bottom: 80px;
+    margin-bottom: 100px;
     padding: 5px;
     /* background-color: #0067b8; */
 }
+.iconContainer h2 {
+    display: flex;
+    width: 25%;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.iconContainer h2:before,
+h2:after {
+    content: '';
+    border-top: 5px solid;
+    margin: 0 20px 0 0;
+    flex: 1 0 20px;
+}
+
+.iconContainer h2:after {
+    margin: 0 0 0 20px;
+}
+
 
 .iconContainer ul{
     display: flex;
@@ -221,7 +241,7 @@ ul {
   }
   .card-content {
     margin-bottom: 10px;
-    min-height: 60px;
+    min-height: 20px;
   }
   
   .btn-card {
