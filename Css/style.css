@@ -102,7 +102,7 @@ ul {
 .basket,
 .user {
     font-size: 18px;
-    margin: 0px 20px 0px 8px;
+    margin: 0px 13px;
     cursor: pointer;
 }
 
@@ -115,33 +115,35 @@ ul {
 /* header and front start from here  */
 .main-header {
     width: 100%;
-    height: 550px;
+    height: 449.375px;
     background: url("/image/front01.avif") no-repeat center center/cover;
     display: flex;
     flex-direction: column;
-    align-items: center;
-    justify-content: end;
     padding-bottom: 65px;
 }
 .main-header h2{
     font-size: 45px;
     font-weight: 600;
+    margin-top: 100px;
+    line-height: 1.2em;
+    padding-bottom: 8px;
 }
 
 .main-header h2,
 .main-header p {
     margin-bottom: 10px;
-    /* background-color: #c4c4c4; */
+    margin-left: 150px;
 }
 
 .main-header a {
-    margin: 20px 0;
+    margin: 13px 0;
+    margin-left: 150px;
 }
 
 .btn {
     display: inline-block;
+    width: 200px;
     padding: 10px 20px;
-    text-align: center;
     line-height: 20px;
     font-weight: bold;
     border-radius: 2px;
@@ -153,7 +155,7 @@ ul {
 }
 
 .btn-dark {
-    background-color: #262626;
+    background-color: #0067b8;
     color: #fff;
 }
 
