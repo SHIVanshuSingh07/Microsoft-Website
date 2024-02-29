@@ -75,10 +75,10 @@ ul {
     transform: scale(1);
     background-color: #262626;
 }
+/* navbar end from here */
 
 
-
-/* close and open */
+/* close and open start*/
 #menue-close,
 #menue-open {
     display: none;
@@ -90,9 +90,9 @@ ul {
     margin-right: 20px;
     cursor: pointer;
 }
+/* close and open end */
 
-
-/* search, basket and user */
+/* search, basket and user start*/
 .operation {
     display: flex;
     align-items: center;
@@ -109,7 +109,7 @@ ul {
 .user {
     font-size: 30px;
 }
-
+/* search, basket and user end*/
 /* navbar end from here */
 
 /* header and front start from here  */
@@ -178,9 +178,8 @@ ul {
     height: 135px;
     margin: 10px auto;
     margin-top: 80px;
-    margin-bottom: 100px;
+    margin-bottom: 80px;
     padding: 5px;
-    /* background-color: #0067b8; */
 }
 .iconContainer h2 {
     display: flex;
@@ -205,7 +204,6 @@ h2:after {
 
 .iconContainer ul{
     display: flex;
-    /* background-color: red; */
     padding-left: 200px;
     padding-right: 200px;
 }
@@ -218,7 +216,6 @@ h2:after {
     padding: 30px 60px 30px 60px;
 
 }
-
 /* Icon-link end */
 
 /* card start */
@@ -244,11 +241,13 @@ h2:after {
     min-height: 20px;
   }
   
-  .btn-card {
-    width: 130px;
-    margin: 10px 0;
+  .card a{
+    color: #0067b8;
+    font-weight: 600;
   }
-  
+  .card a:hover{
+    text-decoration: underline;
+  }
   /* card end */
   
    /* xbox start  */
@@ -256,15 +255,15 @@ h2:after {
     background: url("/image/x-box.avif") no-repeat center center/cover;
     width: 100%;
     height: 500px;
-    margin: 100px 0;
+    margin: 130px 0;
   }
   
   .xbox-content {
     float: right;
     padding: 0;
     margin-top: 180px;
-    width: 500px;
-    margin-right: 70px;
+    width: auto;
+    margin-right: 170px;
   }
   .xbox-content h2 {
     font-size: 40px;
@@ -279,3 +278,4 @@ h2:after {
     color: #fff;
     width: 180px;
 }
+ /* xbox end  */
