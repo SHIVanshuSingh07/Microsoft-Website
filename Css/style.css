@@ -75,6 +75,7 @@ ul {
     transform: scale(1);
     background-color: #262626;
 }
+
 /* navbar end from here */
 
 
@@ -90,6 +91,7 @@ ul {
     margin-right: 20px;
     cursor: pointer;
 }
+
 /* close and open end */
 
 /* search, basket and user start*/
@@ -109,6 +111,7 @@ ul {
 .user {
     font-size: 30px;
 }
+
 /* search, basket and user end*/
 /* navbar end from here */
 
@@ -116,12 +119,13 @@ ul {
 .main-header {
     width: 100%;
     height: 449.375px;
-    background: url("/image/front01.avif") no-repeat center center/cover;
+    background: url("https://cdn-dynmedia-1.microsoft.com/is/image/microsoftcorp/Highlight-Surface-Laptop-5-Refresh-Test:VP5-1920x600") no-repeat center center/cover;
     display: flex;
     flex-direction: column;
     padding-bottom: 65px;
 }
-.main-header h2{
+
+.main-header h2 {
     font-size: 45px;
     font-weight: 600;
     margin-top: 100px;
@@ -173,7 +177,7 @@ ul {
 
 
 /* Icon-link start */
-.iconContainer{
+.iconContainer {
     width: 95%;
     height: 135px;
     margin: 10px auto;
@@ -181,6 +185,7 @@ ul {
     margin-bottom: 80px;
     padding: 5px;
 }
+
 .iconContainer h2 {
     display: flex;
     width: 25%;
@@ -202,25 +207,28 @@ h2:after {
 }
 
 
-.iconContainer ul{
+.iconContainer ul {
     display: flex;
     justify-content: center;
 }
 
-.iconContainer ul img{
+.iconContainer ul img {
     width: 60px;
     height: 60px;
 }
-#linkList .imageicon{
+
+#linkList .imageicon {
     padding: 30px 40px 30px 40px;
 
 }
-#linkList .imageicon a{
+
+#linkList .imageicon a {
     font-weight: 500;
     font-size: 15px;
     color: #0067b8;
 }
-#linkList .imageicon a:hover{
+
+#linkList .imageicon a:hover {
     text-decoration: 2px underline #0067b8;
 
 }
@@ -233,64 +241,73 @@ h2:after {
     grid-template-columns: repeat(4, 1fr);
     gap: 10px;
     margin: 15px 0;
-  }
-  .card {
+}
+
+.card {
     min-height: 350px;
-  }
-  .card h3{
+}
+
+.card h3 {
     font-size: 25px;
     padding-bottom: 10px;
-  }
-  .card-img img {
+}
+
+.card-img img {
     width: 100%;
     margin-bottom: 20px;
-  }
-  .card-content {
+}
+
+.card-content {
     margin-bottom: 10px;
     min-height: 20px;
-  }
-  
-  .card a{
+}
+
+.card a {
     color: #0067b8;
     font-weight: 600;
-  }
-  .card a:hover{
-    text-decoration:2px underline;
-  }
-  /* card end */
-  
-   /* xbox start  */
-  .xbox {
+}
+
+.card a:hover {
+    text-decoration: 2px underline;
+}
+
+/* card end */
+
+/* xbox start  */
+.xbox {
     background: url("/image/x-box.avif") no-repeat center center/cover;
     width: 100%;
     height: 500px;
     margin: 100px 0;
-  }
-  
-  .xbox-content {
+}
+
+.xbox-content {
     float: right;
     padding: 0;
     margin-top: 180px;
     width: auto;
     margin-right: 170px;
-  }
-  .xbox-content h2 {
+}
+
+.xbox-content h2 {
     font-size: 40px;
     font-weight: 500;
-  }
-  .xbox-content p {
+}
+
+.xbox-content p {
     margin: 15px 0;
-  }
- 
-  .xbox-content .btn-dark {
+}
+
+.xbox-content .btn-dark {
     background-color: #0067b8;
     color: #fff;
     width: 180px;
 }
- /* xbox end  */
 
- /* ai-meeting start */
- .ai-meeting {
+/* xbox end  */
+
+/* ai-meeting start */
+.ai-meeting {
     width: 100%;
     height: 520px;
     margin: 100px 0;
@@ -299,7 +316,8 @@ h2:after {
     flex-direction: column;
     padding-bottom: 65px;
 }
-.ai-meeting h2{
+
+.ai-meeting h2 {
     font-size: 45px;
     font-weight: 600;
     margin-top: 130px;
@@ -318,8 +336,9 @@ h2:after {
     margin: 13px 0;
     margin-left: 150px;
 }
-.ai-meeting .btn{
+
+.ai-meeting .btn {
     width: 300px;
 }
 
- /* ai-meeting end */
+/* ai-meeting end */
