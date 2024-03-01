@@ -204,8 +204,7 @@ h2:after {
 
 .iconContainer ul{
     display: flex;
-    padding-left: 200px;
-    padding-right: 200px;
+    justify-content: center;
 }
 
 .iconContainer ul img{
@@ -213,9 +212,19 @@ h2:after {
     height: 60px;
 }
 #linkList .imageicon{
-    padding: 30px 60px 30px 60px;
+    padding: 30px 40px 30px 40px;
 
 }
+#linkList .imageicon a{
+    font-weight: 500;
+    font-size: 15px;
+    color: #0067b8;
+}
+#linkList .imageicon a:hover{
+    text-decoration: 2px underline #0067b8;
+
+}
+
 /* Icon-link end */
 
 /* card start */
@@ -246,7 +255,7 @@ h2:after {
     font-weight: 600;
   }
   .card a:hover{
-    text-decoration: underline;
+    text-decoration:2px underline;
   }
   /* card end */
   
@@ -255,7 +264,7 @@ h2:after {
     background: url("/image/x-box.avif") no-repeat center center/cover;
     width: 100%;
     height: 500px;
-    margin: 130px 0;
+    margin: 100px 0;
   }
   
   .xbox-content {
