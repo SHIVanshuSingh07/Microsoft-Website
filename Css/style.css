@@ -429,7 +429,7 @@ h2:after {
   width: 130px;
   padding: 5px 10px;
   height: 50px;
-  background-color:  #0374cb;
+  background-color:  #a3a2a2;
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -447,9 +447,128 @@ h2:after {
 }
 
 .scroll-top:hover {
-    background-color: #0067b8;
-    
+    background-color: #fff;
+    border: #616161 solid 1px;
 }
-
-
-
+/* media  query start*/
+@media screen and (max-width: 840px) {
+    .links .link-inner {
+      grid-template-columns: repeat(3, 1fr);
+    }
+    .footer-inner {
+      flex-direction: column;
+      align-items: start;
+    }
+    .footer-inner ul {
+      flex-direction: column;
+      align-items: start;
+      margin: 10px 0;
+    }
+  
+    .footer-inner ul li {
+      margin: 5px 0;
+    }
+    .footer {
+      padding-top: 10px;
+    }
+  }
+  
+  @media screen and (max-width: 768px) {
+    .home-cards {
+      grid-template-columns: repeat(2, 1fr);
+      justify-content: center;
+    }
+    .links .link-inner {
+      grid-template-columns: repeat(2, 1fr);
+    }
+    .xbox-content {
+      width: 60%;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+    }
+    .xbox-content p {
+      display: none;
+    }
+    .xbox-content h2 {
+      text-align: center;
+    }
+  
+    .carbon-content {
+      width: 100%;
+      text-align: center;
+      padding: 100px 20px;
+    }
+  }
+  @media screen and (max-width: 640px) {
+    #menue-close,
+    #menue-open {
+      display: block;
+    }
+  
+    #menue-open {
+      order: 0;
+    }
+  
+    .logo {
+      order: 1;
+    }
+  
+    .operation {
+      order: 2;
+    }
+  
+    #menue-close i,
+    #menue-open i {
+      font-size: 22px;
+      cursor: pointer;
+    }
+  
+    .main-nav ul {
+      flex-direction: column;
+      background-color: #fff;
+      position: fixed;
+      left: -999px;
+      top: 0;
+      width: 100%;
+      height: 100vh;
+      padding: 10px 10px;
+      transition: 300ms;
+      z-index: 10000;
+    }
+  
+    .main-nav ul.open {
+      left: 0;
+    }
+  
+    .main-nav ul li {
+      width: 100%;
+      margin: 20px 0;
+    }
+  
+    .main-header p {
+      text-align: center;
+      padding: 5px;
+    }
+  
+    .main-nav ul li a::after {
+      width: 20%;
+      margin-top: 10px;
+    }
+  
+    .main-nav ul li a:hover::after {
+      background-color: #0067b8;
+    }
+  
+    .home-cards {
+      grid-template-columns: repeat(1, 1fr);
+      justify-content: center;
+    }
+    .links .link-inner {
+      grid-template-columns: repeat(1, 1fr);
+    }
+    .carbon-content {
+      padding: 50px 20px;
+    }
+  }
